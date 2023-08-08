@@ -1,0 +1,23 @@
+.btn {
+    width: fit-content;
+
+    border-radius: 0.5rem;
+
+    padding: 0.75rem 1.25rem;
+
+    font-size: var(--font-1);
+    font-weight: var(--font-weight-2);
+
+    color: var(--color-white);
+    background: var(--grey-200);
+
+    &:hover {
+        scale: 1.1;
+
+        background: var(--color-primary);
+    }
+
+    &:active {
+        scale: 0.95;
+    }
+}

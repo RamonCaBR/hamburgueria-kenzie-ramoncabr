@@ -1,0 +1,33 @@
+.itemCard {
+    display: flex;
+    justify-content: space-between;
+
+    & > div {
+        display: flex;
+
+        gap: 10px;
+    }
+
+    .imgContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        height: 80px;
+        width: 80px;
+
+        border-radius: 0.3125rem;
+
+        background: var(--grey-100);
+    }
+
+    img {
+        width: 80%;
+    }
+
+    button {
+        height: fit-content;
+
+        background: transparent;
+    }
+}

@@ -1,0 +1,56 @@
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+img,
+ol,
+ul,
+button,
+li,
+footer,
+form,
+header,
+nav,
+section {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+input {
+    width: 100%;
+
+    border: none;
+
+    outline: none;
+}
+
+button {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+    border: none;
+
+    transition: 0.2s;
+
+    cursor: pointer;
+}
